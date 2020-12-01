@@ -2,24 +2,26 @@
 hd-wallet-derive 
 
 
-# BLOCKCHAIN WALLET
+# Multi-Blockchain Wallet in Python
 
-## CREATING A WALLET FOR MY BLOCKCHAIN AND SENDING TRANSACTIONS
+## Project: 
 
+Build a portfolio management system for a startup that supports not only traditional assets like gold, silver, stocks as well as crypto-assets.
 
-For my project I chose the command line tool hd-wallet-derive which can manage billions of addresses across 300 + coins. It supports not only BIP32, BIP39 AND BIP44, but can also support non-standard paths for the most popular wallets out there today. 
+## Wallet
+
+The command line tool hd-wallet-derive will be used which supports not only BIP32, BIP39, and BIP44, but also non-standard derivation paths for the most popular wallets out there today.  It can also manage billions of addresses across 300 + coins. 
 
 I will be starting with 2 working blockchains, a custom Ethereum POA blockchain that I created previously called bzeth and the Bitcoin Testnet. 
 
 ## Dependancies
-PHP must be installed on your operating system(any version, 5 or 7)
-Clone the [hd-wallet-derive tool](https://github.com/dan-da/hd-wallet-derive)
-[bit](https://ofek.dev/bit/) Python Bitcoin Library
-[web3.py](https://github.com/ethereum/web3.py) Python Ethereum library. 
+- PHP must be installed on your operating system(any version, 5 or 7)
+- Clone the [hd-wallet-derive tool](https://github.com/dan-da/hd-wallet-derive)
+- [bit](https://ofek.dev/bit/) Python Bitcoin Library
+- [web3.py](https://github.com/ethereum/web3.py) Python Ethereum library. 
 
 
-## Instructions
-
+## Guidelines
 ## HD Derive Wallet Install Guide 
 
 This guide is a step by step process for installing/setting up the [hd-wallet-derive](https://github.com/dan-da/hd-wallet-derive) library used to derive BIP32 addresses and private keys for Bitcoin and other alt coins. 
@@ -27,11 +29,11 @@ This guide is a step by step process for installing/setting up the [hd-wallet-de
 
 ## HD-WALLET-DERIVE INSTALLATION
 
-Now that the lastest version of PHP is installed on our computers, we can proceed to the installation of the hd-wallet-derive library. 
+After the lastest version of PHP is installed on our computers, proceed to the installation of the hd-wallet-derive library. 
 
 Execute the following steps:
 
--Navigate to the [Github Website](https://github.com/dan-da/hd-wallet-derive) for the hd-wallet-derive library and find the installation instructions. 
+-Navigate to the [Github Website](https://github.com/dan-da/hd-wallet-derive) for the hd-wallet-derive library and scroll down to the installation instructions.
 
 -Next, open a terminal and execute the following commands. If you are using Windows, you will need to open the git-bash GUI via C:\Program Files\Git\bin\bash.exe directly to enable something called tty mode that makes the terminal more compatible with Unix systems. Once installed, you may move back to using the usual git-bash terminal.
 
